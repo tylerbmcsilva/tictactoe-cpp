@@ -10,18 +10,21 @@
 #define Board_hpp
 
 #include <string>
+#include <string.h>
 
 using namespace std;
 
+enum State{XWON, OWON, DRAW, INPROGRESS};
+
 class Board {
 private:
-    enum State{XWON, OWON, DRAW, INPROGRESS};
     char gameBoard[3][3];
+    int totalMoves = 0;
 public:
     Board();
-    bool makeMove(int,int);
-    string gameState();
-    void printBoard();
+    bool makeMove(int,int,char);
+    State gameState();
+    void print();
 };
 
 #endif /* Board_hpp */

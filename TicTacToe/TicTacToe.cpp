@@ -7,3 +7,8 @@
 //
 
 #include "TicTacToe.hpp"
+#include "Board.hpp"
+
+TicTacToe::TicTacToe(char player){
+    PlayerTurn = player;
+}
