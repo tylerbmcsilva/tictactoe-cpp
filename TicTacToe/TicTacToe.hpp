@@ -9,6 +9,16 @@
 #ifndef TicTacToe_hpp
 #define TicTacToe_hpp
 
-#include <stdio.h>
+#include "./Board.hpp"
+
+class TicTacToe {
+private:
+    Board gameBoard;
+    char PlayerTurn;
+public:
+    TicTacToe(char);
+    string Play();
+};
+
 
 #endif /* TicTacToe_hpp */
