@@ -18,8 +18,8 @@ enum State{XWON, OWON, DRAW, INPROGRESS};
 
 class Board {
 private:
-    char gameBoard[3][3];
-    int totalMoves = 0;
+    char gameBoard[4][4];
+    int totalMoves;
 public:
     Board();
     bool makeMove(int,int,char);
