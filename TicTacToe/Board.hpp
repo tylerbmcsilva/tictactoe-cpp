@@ -1,10 +1,9 @@
-//
-//  Board.hpp
-//  TicTacToe
-//
-//  Created by Tyler Silva on 3/11/17.
-//  Copyright © 2017 Tyler McSilva. All rights reserved.
-//
+/*
+ Title: Board Class
+ Date: 03/11/17
+ Descrition: Board sets up the game board for tictactoe,
+ also is able to print the gameboard and verify a move
+*/
 
 #ifndef Board_hpp
 #define Board_hpp

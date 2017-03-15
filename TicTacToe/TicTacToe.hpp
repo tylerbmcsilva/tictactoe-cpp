@@ -1,10 +1,10 @@
-//
-//  TicTacToe.hpp
-//  TicTacToe
-//
-//  Created by Tyler Silva on 3/11/17.
-//  Copyright © 2017 Tyler McSilva. All rights reserved.
-//
+/*
+ Title: TicTacToe Class
+ Date: 03/11/17
+ Descrition: Runs the game of TicTacToe, facilitates which
+ player goes when, and prints who the winner is at the end
+ of the game!
+ */
 
 #ifndef TicTacToe_hpp
 #define TicTacToe_hpp
